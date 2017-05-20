@@ -1,0 +1,23 @@
+{
+  "name": "iothub-node",
+  "version": "1.0.0",
+  "description": "Node js code for iothub",
+  "main": "index.js",
+  "dependencies": {
+    "azure-iothub": "^1.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHarlapur/iothub-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PHarlapur/iothub-node/issues"
+  },
+  "homepage": "https://github.com/PHarlapur/iothub-node#readme"
+}
