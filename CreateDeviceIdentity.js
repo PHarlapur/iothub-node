@@ -3,7 +3,7 @@
 
 var iothub =require('azure-iothub');
 
-var connectionString = '{HostName=poc-prabhas-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=GwYeub2mrFAR88uw0PbdgxbNOU/eJ5k4PVMsgTwZht8=}';
+var connectionString = 'HostName=poc-prabhas-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=GwYeub2mrFAR88uw0PbdgxbNOU/eJ5k4PVMsgTwZht8=';
 
 var registry = iothub.Registry.fromConnectionString(connectionString);
 
